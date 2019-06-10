@@ -3,6 +3,10 @@
 mobile.iml
 target/
 
+#Mac OS
+.DS_Store
+src/test/java/.DS_Store
+
 # Compiled class file
 *.class
 
