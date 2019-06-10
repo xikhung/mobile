@@ -3,7 +3,6 @@ package Auxiliar;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import sun.security.krb5.internal.APOptions;
 
 public class GeneralMethods {
 
