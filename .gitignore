@@ -1,5 +1,6 @@
 #Intellij IDEA files
 .idea
+mobile.iml
 
 # Compiled class file
 *.class
