@@ -29,8 +29,8 @@ public class Driver {
             capabilities.setCapability("appActivity",appActivity);
             capabilities.setCapability("autoGrantPermissions", true);
             capabilities.setCapability("noReset",true);
+            capabilities.setCapability("automationName","UiAutomator2");
         driver = new AppiumDriver(server.getUrl(),capabilities);
         return driver;
     }
-
 }
