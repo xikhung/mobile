@@ -1,0 +1,36 @@
+package Auxiliar;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Driver {
+    private static AppiumServiceBuilder serverBuilder;
+    private static AppiumDriver driver;
+    private static AppiumDriverLocalService server;
+
+
+    private Driver(){}
+
+    public static AppiumDriverLocalService getServer(){
+        serverBuilder = new AppiumServiceBuilder();
+        serverBuilder.usingAnyFreePort();
+        server = AppiumDriverLocalService.buildService(serverBuilder);
+        return server;
+    }
+
+    public static AppiumDriver getLocalAndroidDriver(String deviceName, String udid, String appPackage, String appActivity){
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("platformName","Android");
+            capabilities.setCapability("deviceName",deviceName);
+            capabilities.setCapability("udid",udid);
+            capabilities.setCapability("appPackage",appPackage);
+            capabilities.setCapability("appActivity",appActivity);
+            capabilities.setCapability("autoGrantPermissions", true);
+            capabilities.setCapability("noReset",true);
+        driver = new AppiumDriver(server.getUrl(),capabilities);
+        return driver;
+    }
+
+}

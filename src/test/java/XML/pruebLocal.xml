@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Prueba Local">
+    <test name = "Prueba">
+        <parameter name = "platformName" value = "Android"/>
+        <parameter name = "deviceName" value = "Xiaomi Mi Mix 2S"/>
+        <parameter name = "UDID" value = "2f0e49e1"/>
+        <parameter name = "appPackage" value = "com.miui.calculator"/>
+        <parameter name = "appActivity" value = "com.miui.calculator.cal.CalculatorActivity"/>
+        <classes>
+            <class name = "Test.PruebaAndroidLocal"/>
+        </classes>
+    </test>
+</suite>
