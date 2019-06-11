@@ -19,7 +19,7 @@ Verificar la instalación utilizar el comando: mvn -v
 ```bash
 Verificar instalación utilizar el comando: node -v
 ```
-* [npm](https://www.npmjs.com) Manejador de paquetes de NodeJS, este se instala con nodeJS
+* [npm](https://www.npmjs.com) Manejador de paquetes de NodeJS, este se instala conjunto a nodeJS
 ```bash
 Verificar instalación utilizar el comando: npm -v
 ```
