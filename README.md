@@ -44,14 +44,6 @@ Para tener un mejor manejo de ramas y prevenir los problemas de merge, se debe s
 ```bash
 ```
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 ## Contribuir al proyecto 
 1) Para tener acceso de escritura/lectura enviar tu usuario de github a (ಡ_ಡ)☞ ahung@xik.gt
 2) Si tienes alguna sugerencia, se brutalmente directo y envia un msj a (ಡ_ಡ)☞ ahung@xik.gt
