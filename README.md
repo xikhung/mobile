@@ -1,4 +1,4 @@
-# Mobile
+# 📱Mobile
 
 Ambiente de testing mobile utilizando la herramienta de Appium para comunicarse a dispositivos Android y iOS.
 
@@ -27,12 +27,19 @@ Verificar instalación utilizar el comando: npm -v
 ```bash
 Verificar instalación utilizar el comando: adb version
 ```
-🙏 Si alguno de estos pasos no funciona no entres en pánico (ง •̀_•́)ง
+* Una vez que el comando de npm funciona correctamente instalar el paquete de appium con el siguiente comando:
+```bash
+npm install -g appium
+Verificar instalación utilizar comando: appium --version
+```
+
+🙏 Si alguno de estos pasos no funciona no entres en pánico (ง •̀_•́)ง seguir los siguientes pasos en orden
 1) Ver documentación asociada a tu OS .....  ԅ(≖‿≖ԅ)
-2) Enviar un msj ASAP  (ಡ_ಡ)☞ ahung@xik.gt, con tu OS y en que paso fallo.
+2) Enviar un msj ASAP  (ಡ_ಡ)☞ ahung@xik.gt, con tu OS, en que paso fallo y mejor si adjuntas un captura de pantalla con el error 😛.
+***
 
 ## ⚠️ Flujo de trabajo Git ⚠️
-Para tener un mejor manejo de ramas y prevenir los problemas de merge, de debe seguir el siguiente flujo de pull/push.
+Para tener un mejor manejo de ramas y prevenir los problemas de merge, se debe seguir el siguiente flujo de pull/push.
 
 ```bash
 ```
@@ -45,10 +52,9 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contribuir al proyecto
-Para tener acceso de escritura/lectura enviar tu usuario de github a (ಡ_ಡ)☞ ahung@xik.gt
-
-
+## Contribuir al proyecto 
+1) Para tener acceso de escritura/lectura enviar tu usuario de github a (ಡ_ಡ)☞ ahung@xik.gt
+2) Si tienes alguna sugerencia, se brutalmente directo y envia un msj a (ಡ_ಡ)☞ ahung@xik.gt
 
 ## Licencia 
 [MIT](https://choosealicense.com/licenses/mit/)
