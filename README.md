@@ -45,7 +45,9 @@ Verificar instalación utilizar el comando: node -v
 ```bash
 Verificar instalación utilizar el comando: adb version
 ```
-🙏 Si alguno de estos pasos no funciona no entres en pánico y envía un msg ASAP a ahung@xik.gt con tu sistema operativo y en que paso te ha fallado o consulta la documentación
+🙏 Si alguno de estos pasos no funciona no entres en pánico (ง •̀_•́)ง
+1) Ver documentación asociada al tu OS .....  ԅ(≖‿≖ԅ)
+2) Enviar un msj ASAP  (ಡ_ಡ)☞ ahung@xik.gt, con tu OS y en que paso fallo.
 
 ## Usage
 
