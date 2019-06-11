@@ -5,6 +5,7 @@ Ambiente de testing mobile utilizando la herramienta de Appium para comunicarse 
 ## Prerequisitos
 
 Para poder utilizar el ambiente de pruebas se necesitan las siguientes herramientas.
+* ⚠️[Xcode](https://developer.apple.com/xcode/) Si y solo si tu OS es MacOS, para instalarlo se puede por la pagina de developers o por la AppStore
 * [Intellij IDE](https://www.jetbrains.com/idea/download/#) Descargar la version community
 * [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) La instalación puede variar dependiendo del OS
 ```bash
