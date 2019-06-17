@@ -3,6 +3,7 @@ package Auxiliar;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Driver {
@@ -16,6 +17,7 @@ public class Driver {
     public static AppiumDriverLocalService getServer(){
         serverBuilder = new AppiumServiceBuilder();
         serverBuilder.usingAnyFreePort();
+        serverBuilder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
         server = AppiumDriverLocalService.buildService(serverBuilder);
         return server;
     }
