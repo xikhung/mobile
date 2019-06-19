@@ -1,11 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name = "Prueba Local">
+    <listeners>
+            <listener class-name = "Report.CustomListener"/>
+            <listener class-name = "Report.AnnotationTransformer"/>
+    </listeners>
     <test name = "Prueba">
         <parameter name = "platformName" value = "Android"/>
         <parameter name = "deviceName" value = "Xiaomi Mi Mix 2S"/>
         <parameter name = "UDID" value = "2f0e49e1"/>
-        <parameter name = "appPackage" value = "com.miui.calculator"/>
-        <parameter name = "appActivity" value = "com.miui.calculator.cal.CalculatorActivity"/>
+        <parameter name = "appPackage" value = "org.wordpress.android"/>
+        <parameter name = "appActivity" value = "org.wordpress.android.ui.WPLaunchActivity"/>
         <classes>
             <class name = "Test.PruebaAndroidLocal"/>
         </classes>
