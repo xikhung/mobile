@@ -6,6 +6,8 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.util.concurrent.TimeUnit;
+
 public class Driver {
     private static AppiumServiceBuilder serverBuilder;
     private static AppiumDriver driver;
@@ -33,6 +35,7 @@ public class Driver {
             capabilities.setCapability("noReset",true);
             capabilities.setCapability("automationName","UiAutomator2");
         driver = new AppiumDriver(server.getUrl(),capabilities);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         return driver;
     }
 }
